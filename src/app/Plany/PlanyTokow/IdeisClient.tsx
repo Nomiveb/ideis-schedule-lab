@@ -1,11 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
-export function IdeisClient({ initialGrid, tok }: { initialGrid: string; tok?: string }) {
+export function IdeisClient({
+  initialGrid,
+  tok,
+  initialDateFrom = "15.09.2026",
+  initialDateTo = "15.02.2027",
+}: {
+  initialGrid: string;
+  tok?: string;
+  initialDateFrom?: string;
+  initialDateTo?: string;
+}) {
   const [grid, setGrid] = useState(initialGrid);
   const [loading, setLoading] = useState(false);
+  const inCallbackRef = useRef(false);
 
   useEffect(() => {
     const toDotted = (d: Date) =>
@@ -26,20 +37,26 @@ export function IdeisClient({ initialGrid, tok }: { initialGrid: string; tok?: s
       },
     };
     g.gridViewPlanyTokow = {
-      InCallback: () => false,
+      InCallback: () => inCallbackRef.current,
     };
   }, []);
 
   async function search(event: React.MouseEvent<HTMLAnchorElement>) {
     event.preventDefault();
+    inCallbackRef.current = true;
     setLoading(true);
-    const dateFrom = (document.querySelector("#DataOd_I") as HTMLInputElement | null)?.value || "";
-    const dateTo = (document.querySelector("#DataDo_I") as HTMLInputElement | null)?.value || "";
-    const params = new URLSearchParams({ dateFrom, dateTo });
-    const gridEndpoint = tok ? `/Plany/PlanyTokowGrid/${tok}?${params.toString()}` : `/Plany/PlanyTokowGrid?${params.toString()}`;
-    const response = await fetch(gridEndpoint, { cache: "no-store" });
-    setGrid(await response.text());
-    setLoading(false);
+    try {
+      const dateFrom = (document.querySelector("#DataOd_I") as HTMLInputElement | null)?.value || "";
+      const dateTo = (document.querySelector("#DataDo_I") as HTMLInputElement | null)?.value || "";
+      const params = new URLSearchParams({ dateFrom, dateTo });
+      const gridEndpoint = tok ? `/Plany/PlanyTokowGrid/${tok}?${params.toString()}` : `/Plany/PlanyTokowGrid?${params.toString()}`;
+      const response = await fetch(gridEndpoint, { cache: "no-store" });
+      const html = await response.text();
+      setGrid(html);
+    } finally {
+      inCallbackRef.current = false;
+      setLoading(false);
+    }
   }
 
   return (
@@ -47,11 +64,11 @@ export function IdeisClient({ initialGrid, tok }: { initialGrid: string; tok?: s
       <div className="toolbar">
         <label>
           Data od
-          <input id="DataOd_I" defaultValue="15.09.2026" />
+          <input id="DataOd_I" defaultValue={initialDateFrom} />
         </label>
         <label>
           Data do
-          <input id="DataDo_I" defaultValue="15.02.2027" />
+          <input id="DataDo_I" defaultValue={initialDateTo} />
         </label>
         <Link id="SzukajLogout" href="/Plany/PlanyTokowGrid" onClick={search}>
           Search

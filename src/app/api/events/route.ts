@@ -16,17 +16,17 @@ export async function POST(request: Request) {
 
   const body = await request.json();
   const created = await addEvent({
-    date: body.date || "2026-05-19",
+    date: body.date || "2026-10-01",
     startTime: body.startTime || "9:00",
     endTime: body.endTime || "10:30",
     duration: body.duration || "2h00m",
-    groupName: body.groupName || "Zarządzanie 1st 2sem Ćw1S",
+    groupName: body.groupName || "ZPzWAI (ZARZ) 1st 3sem WykS",
     subject: body.subject || "Testowe zajęcia",
-    form: body.form || "Ćwiczenia",
-    room: body.room || "LAB 001",
+    form: body.form || "Wyk",
+    room: body.room || "S47 120",
     teacher: body.teacher || "mgr IDEIS Test",
     credit: body.credit || "Zaliczenie ocena",
-    prowgrId: body.prowgrId || `MANUAL-${Date.now()}`,
+    prowgrId: body.prowgrId || "72217",
     notes: body.notes || "",
     hidden: Boolean(body.hidden),
   });

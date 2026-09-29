@@ -104,10 +104,24 @@ export function AdminClient() {
                 <span>{event.groupName}</span>
               </div>
               <label>
-                Time
+                Date
+                <input
+                  defaultValue={event.date}
+                  onBlur={(input) => save(event.id, { date: input.currentTarget.value })}
+                />
+              </label>
+              <label>
+                Start
                 <input
                   defaultValue={event.startTime}
                   onBlur={(input) => save(event.id, { startTime: input.currentTarget.value })}
+                />
+              </label>
+              <label>
+                End
+                <input
+                  defaultValue={event.endTime}
+                  onBlur={(input) => save(event.id, { endTime: input.currentTarget.value })}
                 />
               </label>
               <label>

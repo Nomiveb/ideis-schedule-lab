@@ -23,6 +23,23 @@ function escapeHtml(value: string) {
 }
 
 export function renderScheduleGrid(events: ScheduleEvent[]) {
+  if (events.length === 0) {
+    return `
+      <table id="gridViewPlanyTokow_DXMainTable" class="dxgvTable">
+        <thead>
+          <tr class="dxgvHeader">
+            ${columns.map((column) => `<th>${escapeHtml(column)}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="gridViewPlanyTokow_DXEmptyRow" class="dxgvEmptyDataRow_iOS">
+            <td colspan="11">Brak danych do wyświetlenia</td>
+          </tr>
+        </tbody>
+      </table>
+    `;
+  }
+
   let currentDate = "";
   let rowIndex = 0;
   const rows: string[] = [];

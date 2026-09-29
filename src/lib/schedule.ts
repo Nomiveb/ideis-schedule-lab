@@ -1,4 +1,5 @@
 import { neon } from "@neondatabase/serverless";
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 
@@ -40,10 +41,6 @@ function compareEvents(a: ScheduleEvent, b: ScheduleEvent) {
   return a.id.localeCompare(b.id);
 }
 
-function isSeedEvent(event: Pick<ScheduleEvent, "id">) {
-  return event.id.startsWith("seed-") || event.id.startsWith("semester-");
-}
-
 export async function readSeedEvents(): Promise<ScheduleEvent[]> {
   const text = await fs.readFile(seedPath, "utf8");
   const rows = text.split(/\r?\n/).filter(Boolean);
@@ -83,6 +80,11 @@ function getSql() {
   return sqlClient;
 }
 
+async function getSeedHash(): Promise<string> {
+  const content = await fs.readFile(seedPath, "utf8");
+  return crypto.createHash("sha256").update(content).digest("hex");
+}
+
 async function ensureSchema() {
   const sql = getSql();
   if (!sql) return false;
@@ -103,6 +105,13 @@ async function ensureSchema() {
       prowgr_id text NOT NULL,
       notes text NOT NULL,
       hidden boolean NOT NULL DEFAULT false
+    )
+  `;
+
+  await sql`
+    CREATE TABLE IF NOT EXISTS schedule_meta (
+      key text PRIMARY KEY,
+      value text NOT NULL
     )
   `;
   return true;
@@ -144,31 +153,41 @@ async function syncSeedDatabase(seed: ScheduleEvent[]) {
   }
 }
 
-async function readLocalEvents() {
+type LocalStore = {
+  seedHash: string;
+  events: ScheduleEvent[];
+};
+
+async function readLocalEvents(): Promise<ScheduleEvent[]> {
   if (process.env.VERCEL) {
     return readSeedEvents();
   }
 
-  let manualEvents: ScheduleEvent[] = [];
+  const currentSeedHash = await getSeedHash();
   try {
     const text = await fs.readFile(localStorePath, "utf8");
-    manualEvents = (JSON.parse(text) as ScheduleEvent[]).filter((event) => !isSeedEvent(event));
+    const data = JSON.parse(text) as LocalStore;
+    if (data && data.seedHash === currentSeedHash && Array.isArray(data.events)) {
+      return data.events;
+    }
   } catch {
-    manualEvents = [];
+    // ignore
   }
 
-  const events = [...(await readSeedEvents()), ...manualEvents];
+  const seed = await readSeedEvents();
   try {
-    await writeLocalEvents(events);
+    await writeLocalEvents(seed);
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== "EROFS") throw error;
   }
-  return events;
+  return seed;
 }
 
 async function writeLocalEvents(events: ScheduleEvent[]) {
+  const seedHash = await getSeedHash();
+  const store: LocalStore = { seedHash, events };
   await fs.mkdir(path.dirname(localStorePath), { recursive: true });
-  await fs.writeFile(localStorePath, JSON.stringify(events, null, 2), "utf8");
+  await fs.writeFile(localStorePath, JSON.stringify(store, null, 2), "utf8");
 }
 
 function fromDb(row: Record<string, unknown>): ScheduleEvent {
@@ -199,12 +218,17 @@ export async function getEvents(options: { includeHidden?: boolean; dateFrom?: s
 
   if (await ensureSchema()) {
     const sql = getSql()!;
-    const seed = await readSeedEvents();
-    const countRes = (await sql`SELECT count(*) FROM schedule_events WHERE id LIKE 'seed-%' OR id LIKE 'semester-%'`) as Array<{ count: string | number }>;
-    const sampleRes = (await sql`SELECT date FROM schedule_events WHERE id = 'seed-0001'`) as Array<{ date: string }>;
-    if (Number(countRes[0]?.count || 0) !== seed.length || sampleRes[0]?.date !== seed[0]?.date) {
+    const seedHash = await getSeedHash();
+    const metaRes = (await sql`SELECT value FROM schedule_meta WHERE key = 'seed_hash'`) as Array<{ value: string }>;
+    if (metaRes[0]?.value !== seedHash) {
+      const seed = await readSeedEvents();
       await sql`DELETE FROM schedule_events WHERE id LIKE 'seed-%' OR id LIKE 'semester-%'`;
       await syncSeedDatabase(seed);
+      await sql`
+        INSERT INTO schedule_meta (key, value)
+        VALUES ('seed_hash', ${seedHash})
+        ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value
+      `;
     }
     const rows = (await sql`
       SELECT * FROM schedule_events
