@@ -1,21 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import type { ScheduleEvent } from "@/lib/schedule";
 
 const blankEvent: Omit<ScheduleEvent, "id"> = {
-  date: "2026-05-19",
+  date: "2026-10-01",
   startTime: "9:00",
   endTime: "10:30",
   duration: "2h00m",
-  groupName: "Zarządzanie 1st 2sem Ćw1S",
-  subject: "Testowe zajęcia",
-  form: "Ćwiczenia",
-  room: "LAB 001",
-  teacher: "Brak",
+  groupName: "ZPzWAI (ZARZ) 1st 3sem ĆwS",
+  subject: "AI w prowadzeniu działalności gospodarczej",
+  form: "Cw",
+  room: "S47 120",
+  teacher: "mgr Anna Gierasimowicz",
   credit: "Zaliczenie ocena",
-  prowgrId: "MANUAL",
-  notes: "",
+  prowgrId: "72217",
+  notes: "Brak",
   hidden: false,
 };
 
@@ -73,7 +74,7 @@ export function AdminClient() {
           <p>IDEIS Schedule Lab</p>
           <h1>Admin</h1>
         </div>
-        <a href="/Plany/PlanyTokow/1203">Public schedule</a>
+        <Link href="/Plany/PlanyTokow/1406">Public schedule</Link>
       </header>
 
       <section className="admin-create">

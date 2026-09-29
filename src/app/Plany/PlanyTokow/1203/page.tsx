@@ -1,6 +1,6 @@
 import { renderScheduleGrid } from "@/lib/grid";
 import { getEvents } from "@/lib/schedule";
-import { IdeisClient } from "./IdeisClient";
+import { IdeisClient } from "../IdeisClient";
 
 export const dynamic = "force-dynamic";
 
@@ -18,8 +18,8 @@ export default async function IdeisSchedulePage() {
         <a href="/admin">Admin</a>
       </header>
       <section className="ideis-panel">
-        <h2>Zarzadzanie S lic. 3.00 2025/2026 Zima</h2>
-        <IdeisClient initialGrid={initialGrid} />
+        <h2>Zarzadzanie przedsiebiorstwem z wykorzystaniem AI (ZARZ) S lic. 3.00 2025/2026 Zima (Tok 1203)</h2>
+        <IdeisClient initialGrid={initialGrid} tok="1203" />
       </section>
     </main>
   );

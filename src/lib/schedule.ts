@@ -21,7 +21,7 @@ export type ScheduleEvent = {
 
 const seedPath = path.join(process.cwd(), "data", "seed.csv");
 const localStorePath = path.join(process.cwd(), ".data", "schedule.json");
-const semesterStartDate = "2026-02-02";
+const semesterStartDate = "2026-09-15";
 
 function clean(value: string | undefined) {
   return String(value || "").replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
@@ -201,7 +201,8 @@ export async function getEvents(options: { includeHidden?: boolean; dateFrom?: s
     const sql = getSql()!;
     const seed = await readSeedEvents();
     const countRes = (await sql`SELECT count(*) FROM schedule_events WHERE id LIKE 'seed-%' OR id LIKE 'semester-%'`) as Array<{ count: string | number }>;
-    if (Number(countRes[0]?.count || 0) !== seed.length) {
+    const sampleRes = (await sql`SELECT date FROM schedule_events WHERE id = 'seed-0001'`) as Array<{ date: string }>;
+    if (Number(countRes[0]?.count || 0) !== seed.length || sampleRes[0]?.date !== seed[0]?.date) {
       await sql`DELETE FROM schedule_events WHERE id LIKE 'seed-%' OR id LIKE 'semester-%'`;
       await syncSeedDatabase(seed);
     }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AdminClient } from "./AdminClient";
 import {
   createAdminSession,
@@ -43,7 +44,7 @@ function AdminLogin({ error }: { error: boolean }) {
             ADMIN_PASSWORD is not configured. Add it in Vercel Environment Variables.
           </div>
         )}
-        <a href="/Plany/PlanyTokow/1203">Public schedule</a>
+        <Link href="/Plany/PlanyTokow/1406">Public schedule</Link>
       </section>
     </main>
   );
