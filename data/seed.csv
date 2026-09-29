@@ -1,0 +1,290 @@
+Date;Czas od;Czas do;Liczba godzin;Grupy;Zajecia;Forma;Sala;Prowadzacy;Forma zaliczenia;ProwGr ID;Uwagi
+2026-02-04;10:00;11:00;1h15m;Zarządzanie 1st 1sem WykS;Egzamin - Podstawy zarządzania;;;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;;;Egzamin online
+2026-02-05;12:00;14:00;2h30m;Zarządzanie 1st 1sem WykS;Egzamin - Ekonomia;;S55 112;dr Robert Krzemień;;;Brak
+2026-02-20;13:15;14:00;1h00m;Zarządzanie 1st 2sem Ćw2S , Zarządzanie 1st 2sem Ćw1S;Zajęcia z tutorem;Cw;;dr Barbara Pawełko-Czajka;Nie dotyczy;65891, 65890;Distance learning, Zajęcia odwołane
+2026-02-20;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-02-20;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-02-24;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S47 114;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-02-24;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-02-24;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-02-24;14:15;15:00;1h00m;Zarządzanie 1st 2sem Ćw2S , Zarządzanie 1st 2sem Ćw1S;Zajęcia z tutorem;Cw;S55 111;dr Barbara Pawełko-Czajka;Nie dotyczy;65891, 65890;
+2026-02-24;15:15;17:30;3h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;S55 111;dr Barbara Pawełko-Czajka;Egzamin;65892;Brak
+2026-02-25;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 212 - prac. matematyczna/ratownicza;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-02-25;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 312 - prac. matematyczna;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-02-25;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S47 212 - prac. matematyczna/ratownicza;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-02-25;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 119;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-02-26;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 108;mgr Katarzyna Kisiel;Zaliczenie;65874;Brak
+2026-02-26;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 108;mgr Katarzyna Kisiel;Zaliczenie;65874;Brak
+2026-02-26;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 312 - prac. matematyczna;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-02-26;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 312 - prac. matematyczna;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-03-03;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-03-03;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S55 113;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-03-03;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 113;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-03-04;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 124;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-03-04;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-03-04;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-03-04;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 504;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-03-04;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 113;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-03-05;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 107;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65875;
+2026-03-05;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 107;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65875;
+2026-03-05;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Zajęcia odwołane
+2026-03-05;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Zajęcia odwołane
+2026-03-06;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65881;Distance learning
+2026-03-06;14:15;15:45;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;;dr Ścibór Sobieski;Egzamin;65879;Distance learning
+2026-03-06;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-03-06;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-03-11;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 116;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-03-11;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 10;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-03-11;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 111;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-03-11;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 111;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-03-11;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 506;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-03-11;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;;dr Artur Smolik;Zaliczenie ocena;65886;Zajęcia odwołane
+2026-03-12;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-03-12;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-03-12;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Distance learning, Zajęcia odwołane
+2026-03-12;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Distance learning, Zajęcia odwołane
+2026-03-13;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;;dr Ścibór Sobieski;Egzamin;65879;Distance learning
+2026-03-13;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;;dr Ścibór Sobieski;Egzamin;65879;Distance learning
+2026-03-16;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-03-16;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-03-16;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-03-16;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;
+2026-03-16;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;
+2026-03-16;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-03-17;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 114;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-03-17;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 114;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-03-17;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 108;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-03-17;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-03-17;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 107;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-03-17;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S47 311;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-03-17;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S47 311;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-03-18;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 317;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-03-18;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 317;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-03-19;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S47 10;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65874;
+2026-03-19;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Zajęcia odwołane
+2026-03-19;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S47 10;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65874;
+2026-03-19;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Zajęcia odwołane
+2026-03-19;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 10;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-03-19;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-03-19;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-03-19;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 10;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-03-20;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-03-20;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65881;Distance learning
+2026-03-20;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65881;Distance learning
+2026-03-20;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-03-23;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 10;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-03-23;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 10;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-03-23;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-03-23;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-03-24;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-03-24;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-03-24;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-03-24;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-03-24;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-03-25;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 124;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-03-25;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-03-25;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 113;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-03-25;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 108;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-03-25;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Zajęcia odwołane
+2026-03-25;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 113;mgr Kamila Piotrowska;Zaliczenie ocena;65888;
+2026-03-25;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 113;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-03-26;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;S47 114;dr Antoni Benedikt;Zaliczenie ocena;65887;
+2026-03-26;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;S47 114;dr Antoni Benedikt;Zaliczenie ocena;65887;Brak
+2026-03-26;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Distance learning, Zajęcia odwołane
+2026-03-26;12:30;14:45;3h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;S47 114;dr Barbara Pawełko-Czajka;Egzamin;65892;
+2026-03-26;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Distance learning, Zajęcia odwołane
+2026-03-27;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S55 113;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-03-27;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S55 113;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-03-27;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-03-27;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-03-31;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Distance learning
+2026-03-31;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Distance learning
+2026-03-31;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Distance learning
+2026-03-31;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Distance learning
+2026-03-31;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Distance learning
+2026-04-08;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 120;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-04-08;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 119;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-04-08;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S47 114;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-04-08;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 109;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-04-08;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 124;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-04-08;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 109;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-04-08;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 10;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-04-08;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 10;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-04-08;16:00;16:45;1h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 109;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-04-09;8:10;10:30;3h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 408 - prac. dietetyki;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-04-09;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 506;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65874;
+2026-04-09;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 506;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65874;
+2026-04-09;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 507;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-04-09;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 507;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-04-10;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-04-10;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-04-10;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-04-10;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-04-13;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S55 504;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-04-13;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S55 504;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-04-13;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-04-13;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65871;Zajęcia odwołane
+2026-04-14;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 309;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-04-14;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 309;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-04-14;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S47 8;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;
+2026-04-14;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 308;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-04-14;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 116;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-04-15;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-04-15;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-04-16;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 119;mgr Katarzyna Kisiel;Zaliczenie;65875;Brak
+2026-04-16;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 119;mgr Katarzyna Kisiel;Zaliczenie;65875;Brak
+2026-04-16;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 124;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-04-16;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 124;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-04-17;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S55 113;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-04-17;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S55 113;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-04-20;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 116;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-04-20;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 116;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-04-21;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 504;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-04-21;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 504;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-04-22;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 116;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-04-22;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-04-22;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 108;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-04-22;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 108;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-04-22;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 506;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-04-22;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Distance learning
+2026-04-23;8:10;10:30;3h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 124;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-04-23;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 124;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-04-23;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 124;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-04-24;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-04-24;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-04-24;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-04-24;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-04-27;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S55 108;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-04-27;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S55 108;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-04-27;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-04-27;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-04-28;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S55 108;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-04-28;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 124;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-04-28;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S55 113;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-04-28;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-04-28;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 408 - prac. dietetyki;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-04-28;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 408 - prac. dietetyki;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-04-28;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S47 109;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-04-28;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S47 109;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-04-29;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 308;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-04-29;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 308;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-04-30;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 506;mgr Katarzyna Kisiel;Zaliczenie;65874;Brak
+2026-04-30;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Kompetencje przyszłości 2;Cw;S55 506;mgr Katarzyna Kisiel;Zaliczenie;65874;Brak
+2026-04-30;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 506;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-04-30;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S55 506;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-05-04;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 109;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-05-04;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 109;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-05-04;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 119;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-05-04;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S47 119;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-05-05;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 308;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-05;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 308;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-06;8:10;10:30;3h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 309;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-05-06;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 109;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-05-06;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-05-06;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 108;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-05-06;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-06;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Zajęcia odwołane
+2026-05-06;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-06;16:30;18:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 504;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;
+2026-05-06;18:15;19:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 504;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;
+2026-05-07;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 116;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65875;
+2026-05-07;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 116;lic. Aleksandra Maniewska (Zastępstwo);Zaliczenie;65875;
+2026-05-07;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 120;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-05-07;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Prowadzenie własnej działalności gospodarczej;Cw;S47 120;mgr Kamila Piotrowska;Zaliczenie ocena;65889;Brak
+2026-05-08;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Distance learning
+2026-05-08;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;;dr Ścibór Sobieski;Egzamin;65879;Distance learning
+2026-05-08;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65881;Distance learning
+2026-05-08;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-05-08;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-05-11;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 107;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;
+2026-05-11;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 119;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-11;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 119;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-12;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 312 - prac. matematyczna;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-05-12;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Zajęcia odwołane
+2026-05-12;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 312 - prac. matematyczna;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-05-12;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Prowadzenie własnej działalności gospodarczej;Cw;S47 114;mgr Kamila Piotrowska;Zaliczenie ocena;65888;Brak
+2026-05-12;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S47 114;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-05-12;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 308;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-05-12;14:20;15:50;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 507;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-12;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 507;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-13;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;S55 112;dr Antoni Benedikt;Zaliczenie ocena;65887;Brak
+2026-05-13;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;S55 112;dr Antoni Benedikt;Zaliczenie ocena;65887;Brak
+2026-05-13;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 112;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-05-13;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Zajęcia odwołane
+2026-05-13;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 112;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-05-13;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;;;Zaliczenie ocena;65872;Zajęcia odwołane
+2026-05-13;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 507;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-05-13;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Zajęcia odwołane
+2026-05-13;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 507;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-05-15;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-05-15;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65880;Distance learning
+2026-05-15;17:40;19:55;3h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning, Zajęcia odwołane
+2026-05-18;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 120;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-18;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 120;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-05-19;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-05-19;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-05-19;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 124;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-19;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S47 124;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-20;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S55 504;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-05-20;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-05-20;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S55 108;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-05-20;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-05-20;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-05-21;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Distance learning
+2026-05-21;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Distance learning
+2026-05-22;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-05-26;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S55 504;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-05-26;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S55 113;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-05-26;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-05-26;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S47 107;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-05-26;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S47 107;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-05-26;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-05-27;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S55 504;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-05-27;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S55 113;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-05-27;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-27;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw2S;Nauka o organizacji;Cw;S47 120;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65884;Brak
+2026-05-27;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-05-27;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 506;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-05-27;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S55 506;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-05-28;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie;65875;Brak
+2026-05-28;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Kompetencje przyszłości 2;Cw;S47 109;mgr Katarzyna Kisiel;Zaliczenie;65875;Brak
+2026-05-29;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S47 114;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-05-29;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-05-29;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 119;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-06-01;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 120;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-06-01;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 120;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-06-02;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-06-02;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S55 502 - prac. edukacji elementarnej i sensorycznej;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-06-03;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-06-03;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-06-03;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Distance learning
+2026-06-03;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Distance learning
+2026-06-05;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;;dr Ścibór Sobieski;Zaliczenie ocena;65881;Distance learning
+2026-06-05;16:00;17:30;2h00m;Zarządzanie 1st 2sem WykS;Zarządzanie zasobami ludzkimi;Wyk;;dr Barbara Pawełko-Czajka;Egzamin;65892;Distance learning
+2026-06-05;17:45;19:15;2h00m;Zarządzanie 1st 2sem WykS;Elementy rachunkowości;Wyk;;dr Joanna Surlejewska;Zaliczenie ocena;65873;Distance learning
+2026-06-08;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S55 504;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-06-08;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Zarządzanie zasobami ludzkimi;Cw;S55 504;mgr Katarzyna Kisiel;Zaliczenie ocena;65893;Brak
+2026-06-08;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 116;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-06-08;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Elementy rachunkowości;Cw;S47 116;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65872;Brak
+2026-06-09;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 109;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-06-09;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 408 - prac. dietetyki;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-06-09;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Podejmowanie decyzji;Cw;S55 408 - prac. dietetyki;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65886;Brak
+2026-06-09;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Matematyka z elementami statystyki w zarządzaniu;Cw;S47 109;dr Ścibór Sobieski;Zaliczenie ocena;65880;Brak
+2026-06-09;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Marketing i public relations;Wyk;S55 113;prof. dr hab. Krystyna Mazurek-Łopacińska;Egzamin;65876;Brak
+2026-06-09;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-06-09;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 124;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-06-09;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Podejmowanie decyzji;Cw;S55 508;dr hab. Andrzej Brzeziński, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65885;Brak
+2026-06-09;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Marketing i public relations;Cw;S47 124;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65878;Brak
+2026-06-10;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Nauka o organizacji;Cw;S47 116;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Zaliczenie ocena;65883;Brak
+2026-06-10;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Nauka o organizacji;Wyk;S47 114;dr hab. inż Zygmunt Kral, prof. Uniwersytetu DSW Ideis;Egzamin;65882;Brak
+2026-06-10;12:30;14:00;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 10;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-06-10;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw1S;Marketing i public relations;Cw;S47 10;prof. dr hab. Krystyna Mazurek-Łopacińska;Zaliczenie ocena;65877;Brak
+2026-06-10;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S47 109;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-06-10;17:45;19:15;2h00m;Zarządzanie 1st 2sem Ćw1S;Elementy rachunkowości;Cw;S47 109;mgr Małgorzata Ruszkowska-Sroka;Zaliczenie ocena;65871;Brak
+2026-06-11;9:00;10:30;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-06-11;10:45;12:15;2h00m;Zarządzanie 1st 2sem WykS;Podstawy socjologii;Wyk;;dr Antoni Benedikt;Zaliczenie ocena;65887;Distance learning
+2026-06-12;12:30;14:00;2h00m;Zarządzanie 1st 2sem WykS;Matematyka z elementami statystyki w zarządzaniu;Wyk;S55 113;dr Ścibór Sobieski;Egzamin;65879;Brak
+2026-06-12;14:15;15:45;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-06-12;16:00;17:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Matematyka z elementami statystyki w zarządzaniu;Cw;S55 108;dr Ścibór Sobieski;Zaliczenie ocena;65881;Brak
+2026-06-15;9:00;10:30;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 10;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak
+2026-06-15;10:45;12:15;2h00m;Zarządzanie 1st 2sem Ćw2S;Zarządzanie zasobami ludzkimi;Cw;S47 10;mgr Katarzyna Kisiel;Zaliczenie ocena;65894;Brak

@@ -8,19 +8,220 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #165ea8;
+  text-decoration: none;
+}
+
+button,
+#SzukajLogout {
+  border: 1px solid #7f9db9;
+  background: #e8f0fb;
+  color: #12385f;
+  cursor: pointer;
+  font: inherit;
+  padding: 7px 12px;
+}
+
+input {
+  border: 1px solid #9caec2;
+  color: #111827;
+  padding: 7px 8px;
+}
+
+.home-shell,
+.ideis-shell,
+.admin-shell {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+.home-shell nav,
+.ideis-header,
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.home-shell nav {
+  justify-content: flex-start;
+}
+
+.home-shell a,
+.admin-header a,
+.ideis-header a {
+  border: 1px solid #b8c8d8;
+  padding: 8px 12px;
+  background: #f4f7fb;
+}
+
+.ideis-header p,
+.admin-header p {
+  margin: 0;
+  color: #5b6775;
+}
+
+.ideis-header h1,
+.admin-header h1 {
+  margin: 2px 0 0;
+}
+
+.ideis-panel {
+  margin-top: 18px;
+  border: 1px solid #9eb6cf;
+}
+
+.ideis-panel h2 {
+  margin: 0;
+  background: #d8e8f8;
+  border-bottom: 1px solid #9eb6cf;
+  color: #12385f;
+  font-size: 18px;
+  padding: 10px 12px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 10px;
+  background: #f3f7fb;
+  border-bottom: 1px solid #ccd8e6;
+  padding: 12px;
+}
+
+.toolbar label,
+.admin-grid label,
+.event-row label {
+  display: grid;
+  gap: 5px;
+  color: #374151;
+  font-size: 13px;
+}
+
+.loading {
+  color: #5b6775;
+}
+
+#gridContainer {
+  overflow-x: auto;
+}
+
+.dxgvTable {
+  border-collapse: collapse;
+  min-width: 1120px;
+  width: 100%;
+}
+
+.dxgvTable td {
+  border: 1px solid #c9d3df;
+  font-size: 13px;
+  padding: 7px 8px;
+  vertical-align: top;
+}
+
+.dxgvTable th {
+  background: #d8e8f8;
+  border: 1px solid #b8c8d8;
+  color: #12385f;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dxgvGroupRow td {
+  background: #eef4fb;
+  color: #163b63;
+  font-weight: 700;
+}
+
+.dxgvDataRow:nth-child(even) td {
+  background: #fbfdff;
+}
+
+.admin-create,
+.admin-list,
+.admin-login {
+  margin-top: 18px;
+}
+
+.admin-create,
+.admin-login {
+  border: 1px solid #d0d7de;
+  padding: 16px;
+}
+
+.admin-login {
+  max-width: 420px;
+}
+
+.admin-login form {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.admin-login label {
+  display: grid;
+  gap: 6px;
+}
+
+.admin-error {
+  color: #b42318;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.event-table {
+  display: grid;
+  gap: 8px;
+}
+
+.event-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.5fr) repeat(4, minmax(120px, 1fr)) auto auto;
+  gap: 8px;
+  align-items: end;
+  border: 1px solid #d0d7de;
+  padding: 10px;
+}
+
+.event-meta {
+  display: grid;
+  gap: 3px;
+}
+
+.event-meta span {
+  color: #5b6775;
+  font-size: 13px;
+}
+
+.hidden-row {
+  opacity: 0.55;
+}
+
+@media (max-width: 900px) {
+  .event-row {
+    grid-template-columns: 1fr;
+  }
 }

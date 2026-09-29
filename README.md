@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IDEIS Schedule Lab
 
-## Getting Started
+Test IDEIS-like schedule site for the calendar sync project.
 
-First, run the development server:
+## Pages
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- `/Plany/PlanyTokow/1203` - public schedule page that mimics the original IDEIS route.
+- `/Plany/PlanyTokowGrid` - HTML grid endpoint used after `Search`; supports `dateFrom` and `dateTo`.
+- `/admin` - password-protected editor for manual test changes.
+
+## Data
+
+The seed data in `data/seed.csv` was scraped from the original DOM table at:
+
+```text
+https://harmonogramy.ideis.pl/Plany/PlanyTokow/1203
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It covers the original "whole semester" range `2026-02-02` to `2026-09-30`.
+The current seed contains 289 rows across 69 activity dates. Teacher names,
+rooms, forms, `ProwGr ID`, and notes come from the original table, not from demo
+mappings.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If `DATABASE_URL` is set, the app uses Neon Postgres and replaces old generated
+`seed-*` / `semester-*` rows with the current real seed. If `DATABASE_URL` is
+missing, local dev uses `.data/schedule.json` and refreshes seeded rows from
+`data/seed.csv`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Commands
 
-## Learn More
+```powershell
+npm install
+npm run dev
+npm run lint
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Local URL:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+http://localhost:3000/Plany/PlanyTokow/1203
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Vercel
 
-## Deploy on Vercel
+On Vercel, add:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```env
+DATABASE_URL=<Neon connection string>
+ADMIN_PASSWORD=<strong admin password>
+ADMIN_SESSION_SECRET=<random long string, optional but recommended>
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Do not commit secrets or paste them into chat.
+
+## Data Accuracy
+
+Do not invent teacher names. If data needs to be refreshed, scrape/read the
+actual original IDEIS table, including the `Prowadzący` column. Do not use the
+CSV export as the source of truth, because it can omit data and does not carry
+the lecturer column reliably.
