@@ -1,58 +1,66 @@
 # IDEIS Schedule Lab
 
-Test IDEIS-like schedule site for the calendar sync project.
+Staging simulation laboratory and mock timetable platform mirroring the Uniwersytet DSW IDEIS academic schedule portal. Used by testing scrapers and bots (`ideis-calendar-sync-test`) to validate schedule parsing, diff generation, and event lifecycle updates safely.
 
-## Pages
+- **Production Deployment (Vercel)**: `https://schedule-test-dsw.vercel.app/Plany/PlanyTokow/1406`
+- **Admin Management Panel**: `https://schedule-test-dsw.vercel.app/admin`
+- **Vercel Project**: `schedule-test` (linked to `/home/ubuntu/ideis-schedule-lab`)
 
-- `/Plany/PlanyTokow/1406` - public schedule page that mimics the original IDEIS route (Tok 1406).
-- `/Plany/PlanyTokow/1203` - backwards-compatible schedule page (Tok 1203).
-- `/Plany/PlanyTokow/[tok]` - dynamic route supporting any tok identifier.
-- `/Plany/PlanyTokowGrid` and `/Plany/PlanyTokowGrid/[tok]` - HTML grid endpoints used after `Search`; supports `dateFrom` and `dateTo`.
-- `/admin` - password-protected editor for manual test changes.
+## Architecture & Components
 
-## Data
+The application is built on Next.js 16 (React 19, TypeScript) and emulates the exact DOM hierarchy, query routing, and table styling of the legacy IDEIS schedule portal:
 
-The seed data in `data/seed.csv` comes from the original DOM table at:
+- **Timetable Views (`src/app/Plany/PlanyTokow/`)**:
+  - `/Plany/PlanyTokow/1406`: Public schedule page replicating Tok 1406 (Zarządzanie z AI, Semester 3).
+  - `/Plany/PlanyTokow/1203`: Backwards-compatible route for legacy Tok 1203.
+  - `/Plany/PlanyTokow/[tok]`: Dynamic route generator supporting arbitrary tok identifiers.
+- **Scraper Grid Endpoints (`src/app/Plany/PlanyTokowGrid/`)**:
+  - `/Plany/PlanyTokowGrid` & `/Plany/PlanyTokowGrid/[tok]`: HTML grid endpoints used by automated scrapers after triggering searches with `dateFrom` and `dateTo`.
+- **Admin Mutation Suite (`src/app/admin/`)**:
+  - Password-protected web interface to edit class titles, dates, times, rooms, instructors, and distance learning flags for test verification.
+- **Data Persistence Layer (`src/lib/db.ts`)**:
+  - **Neon PostgreSQL**: When `DATABASE_URL` is set, reads and writes against the cloud Neon PostgreSQL database (`long-hat-41387042`).
+  - **Local JSON Fallback**: When `DATABASE_URL` is absent, reads and writes locally to `.data/schedule.json`, automatically initialized from `data/seed.csv`.
 
-```text
-https://harmonogramy.ideis.pl/Plany/PlanyTokow/1406
-```
+## Prerequisites
 
-It covers the Semester 3 range `2026-09-15` to `2027-02-15` (128 classes, groups WykS, CwS, Lekt/ANGS).
-Teacher names, rooms, forms, `ProwGr ID`, and notes come from the original table.
+- **Node.js**: v18.x, v20.x, or v22.x LTS (current environment: Node.js v22.x)
+- **Database**: Optional Neon PostgreSQL connection string (falls back to local filesystem JSON)
+- **Vercel CLI**: For deployment and secret synchronization
 
-If `DATABASE_URL` is set, the app uses Neon Postgres and replaces old seeded rows with the current real seed. If `DATABASE_URL` is missing, local dev uses `.data/schedule.json` and refreshes seeded rows from `data/seed.csv`.
+## Configuration & Environment Variables
 
-## Commands
+Configured in `.env.local` for local development or in Vercel project environment settings:
 
-```powershell
+| Variable | Description |
+|---|---|
+| `DATABASE_URL` | Neon PostgreSQL pooled connection string |
+| `ADMIN_PASSWORD` | Strong password protecting the `/admin` editor |
+| `ADMIN_SESSION_SECRET` | Secret token used to sign administrative session cookies |
+
+*Note: Never commit `.env.local` to git or expose secrets in public channels.*
+
+## Commands to Run & Test
+
+```bash
+# Install dependencies
 npm install
+
+# Run local development server (http://localhost:3000)
 npm run dev
+
+# Static analysis and ESLint verification
 npm run lint
+
+# Production Next.js Turbopack build
 npm run build
+
+# Deploy to Vercel production
+vercel --prod
 ```
 
-Local URL:
+## Deployment & Operational Notes
 
-```text
-http://localhost:3000/Plany/PlanyTokow/1406
-```
-
-## Vercel
-
-On Vercel, add:
-
-```env
-DATABASE_URL=<Neon connection string>
-ADMIN_PASSWORD=<strong admin password>
-ADMIN_SESSION_SECRET=<random long string, optional but recommended>
-```
-
-Do not commit secrets or paste them into chat.
-
-## Data Accuracy
-
-Do not invent teacher names. If data needs to be refreshed, scrape/read the
-actual original IDEIS table, including the `Prowadzący` column. Do not use the
-CSV export as the source of truth, because it can omit data and does not carry
-the lecturer column reliably.
+- **Vercel Deployment**: Automatically linked via `.vercel/project.json` to Vercel project `schedule-test`.
+- **Seed Data Accuracy**: Seed data in `data/seed.csv` contains 128 verified classes covering Semester 3 (`2026-09-15` through `2027-02-15`) with authentic groups (`WykS`, `CwS`, `Lekt/ANGS`), room numbers, and lecturers.
+- **Integrity Constraint**: Do not fabricate instructor or room names. The source of truth is the real IDEIS DOM table. Do not use the IDEIS CSV export as source of truth, as it omits the instructor column.

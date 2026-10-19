@@ -6,8 +6,8 @@ This is the fake IDEIS schedule lab for testing the calendar sync safely.
 
 Work here:
 
-```powershell
-E:\Coding\AWS-SERVER\testing_calendar\ideis-schedule-lab
+```bash
+/home/ubuntu/ideis-schedule-lab
 ```
 
 Do not edit the production sync project from this folder.
@@ -22,16 +22,23 @@ Do not edit the production sync project from this folder.
 - Storage: Neon Postgres through `DATABASE_URL`; if `DATABASE_URL` is missing, local dev falls back to `.data/schedule.json`.
 - Admin auth: set `ADMIN_PASSWORD`; set `ADMIN_SESSION_SECRET` to a random long value when deploying.
 
+## Key Directories
+
+- `src/app`: Next.js App Router routes (`/Plany/PlanyTokow`, `/Plany/PlanyTokowGrid`, `/admin`, `/api/*`)
+- `src/lib`: Data access layer (`db.ts` for Neon Postgres / `.data/schedule.json` fallback, `types.ts`, `auth.ts`)
+- `src/components`: Schedule rendering components (timetable views, filters, admin controls)
+
 ## Commands
 
-```powershell
-npm run dev
-npm run build
+```bash
+npm run dev     # Start Next.js development server
+npm run build   # Run production Next.js Turbopack build
+npm run lint    # Run ESLint checks
 ```
 
-## Safety
+## Agent Development Guidelines & Safety
 
-- Do not commit `.env`.
+- Do not commit `.env` or `.env.local`.
 - Do not put Neon connection strings in chat or README.
 - Do not put `ADMIN_PASSWORD` or `ADMIN_SESSION_SECRET` in chat or README.
 - This project is for test data only, not the real IDEIS source.
